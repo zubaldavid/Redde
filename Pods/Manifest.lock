@@ -1,0 +1,16 @@
+PODS:
+  - AnchorKit (2.1.1)
+
+DEPENDENCIES:
+  - AnchorKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AnchorKit
+
+SPEC CHECKSUMS:
+  AnchorKit: c9a2fb3fee635af911d75cf08ea1bcb67834f079
+
+PODFILE CHECKSUM: 7cd0dd73550352a91d2ef73f0d792da6c2cac93a
+
+COCOAPODS: 1.5.3
