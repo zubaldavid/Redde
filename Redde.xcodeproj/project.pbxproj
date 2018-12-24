@@ -13,6 +13,9 @@
 		3DA115FF21C580760020F26F /* Redde.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DA115FD21C580760020F26F /* Redde.xcdatamodeld */; };
 		3DA1160121C580780020F26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1160021C580780020F26F /* Assets.xcassets */; };
 		3DA1160421C580780020F26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1160221C580780020F26F /* LaunchScreen.storyboard */; };
+		3DD615CE21D0568100D1A571 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD615CD21D0568100D1A571 /* UIImage+Extensions.swift */; };
+		3DD615D021D057CF00D1A571 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD615CF21D057CF00D1A571 /* UIColor+Extensions.swift */; };
+		3DD615D421D0608D00D1A571 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD615D321D0608D00D1A571 /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		3DA1160021C580780020F26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DA1160321C580780020F26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DA1160521C580780020F26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DD615CD21D0568100D1A571 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		3DD615CF21D057CF00D1A571 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		3DD615D321D0608D00D1A571 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../../Desktop/ios-sdk-1.0.1/SpotifyiOS.framework"; sourceTree = "<group>"; };
 		91AB5C0EEEE19D84B32C25EA /* Pods-Redde.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redde.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redde/Pods-Redde.debug.xcconfig"; sourceTree = "<group>"; };
 		9D1B1F3803E42C0BE4132FB8 /* Pods-Redde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redde.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redde/Pods-Redde.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -34,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F364DB95F17E905575B398A /* Pods_Redde.framework in Frameworks */,
+				3DD615D421D0608D00D1A571 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +60,7 @@
 			children = (
 				3DA115F521C580760020F26F /* Redde */,
 				3DA115F421C580760020F26F /* Products */,
+				3DD615D321D0608D00D1A571 /* SpotifyiOS.framework */,
 				6159E0AC5493ED20D2769752 /* Pods */,
 				369662A051C6AA4D385E45C1 /* Frameworks */,
 			);
@@ -71,6 +79,8 @@
 			children = (
 				3DA115F621C580760020F26F /* AppDelegate.swift */,
 				3DA115F821C580760020F26F /* SignInViewController.swift */,
+				3DD615CD21D0568100D1A571 /* UIImage+Extensions.swift */,
+				3DD615CF21D057CF00D1A571 /* UIColor+Extensions.swift */,
 				3DA1160021C580780020F26F /* Assets.xcassets */,
 				3DA1160221C580780020F26F /* LaunchScreen.storyboard */,
 				3DA1160521C580780020F26F /* Info.plist */,
@@ -208,8 +218,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DA115F921C580760020F26F /* SignInViewController.swift in Sources */,
+				3DD615D021D057CF00D1A571 /* UIColor+Extensions.swift in Sources */,
 				3DA115FF21C580760020F26F /* Redde.xcdatamodeld in Sources */,
 				3DA115F721C580760020F26F /* AppDelegate.swift in Sources */,
+				3DD615CE21D0568100D1A571 /* UIImage+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
