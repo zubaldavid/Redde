@@ -13,9 +13,14 @@
 		3DA115FF21C580760020F26F /* Redde.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DA115FD21C580760020F26F /* Redde.xcdatamodeld */; };
 		3DA1160121C580780020F26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1160021C580780020F26F /* Assets.xcassets */; };
 		3DA1160421C580780020F26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA1160221C580780020F26F /* LaunchScreen.storyboard */; };
+		3DB2247521DEFEBB00D150F7 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB2246B21DDB56600D150F7 /* SpotifyiOS.framework */; };
+		3DB2247921E1473600D150F7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2247821E1473600D150F7 /* MenuViewController.swift */; };
+		3DB2247B21E147CD00D150F7 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2247A21E147CD00D150F7 /* SearchViewController.swift */; };
+		3DB2247D21E147F500D150F7 /* MetronomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2247C21E147F500D150F7 /* MetronomeViewController.swift */; };
+		3DB2247F21E1480C00D150F7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2247E21E1480C00D150F7 /* SettingsViewController.swift */; };
+		3DB2248121E163D400D150F7 /* SpotifySessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB2248021E163D400D150F7 /* SpotifySessionManager.swift */; };
 		3DD615CE21D0568100D1A571 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD615CD21D0568100D1A571 /* UIImage+Extensions.swift */; };
 		3DD615D021D057CF00D1A571 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD615CF21D057CF00D1A571 /* UIColor+Extensions.swift */; };
-		3DD615D421D0608D00D1A571 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DD615D321D0608D00D1A571 /* SpotifyiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +32,15 @@
 		3DA1160021C580780020F26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DA1160321C580780020F26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DA1160521C580780020F26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB2246B21DDB56600D150F7 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../ios-sdk-1.0.1/SpotifyiOS.framework"; sourceTree = "<group>"; };
+		3DB2246D21DDB7E000D150F7 /* Redde-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Redde-Bridging-Header.h"; sourceTree = "<group>"; };
+		3DB2247821E1473600D150F7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		3DB2247A21E147CD00D150F7 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3DB2247C21E147F500D150F7 /* MetronomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetronomeViewController.swift; sourceTree = "<group>"; };
+		3DB2247E21E1480C00D150F7 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		3DB2248021E163D400D150F7 /* SpotifySessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifySessionManager.swift; sourceTree = "<group>"; };
 		3DD615CD21D0568100D1A571 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 		3DD615CF21D057CF00D1A571 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
-		3DD615D321D0608D00D1A571 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyiOS.framework; path = "../../../Desktop/ios-sdk-1.0.1/SpotifyiOS.framework"; sourceTree = "<group>"; };
 		91AB5C0EEEE19D84B32C25EA /* Pods-Redde.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redde.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Redde/Pods-Redde.debug.xcconfig"; sourceTree = "<group>"; };
 		9D1B1F3803E42C0BE4132FB8 /* Pods-Redde.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Redde.release.xcconfig"; path = "Pods/Target Support Files/Pods-Redde/Pods-Redde.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -40,7 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F364DB95F17E905575B398A /* Pods_Redde.framework in Frameworks */,
-				3DD615D421D0608D00D1A571 /* SpotifyiOS.framework in Frameworks */,
+				3DB2247521DEFEBB00D150F7 /* SpotifyiOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +61,7 @@
 		369662A051C6AA4D385E45C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3DB2246B21DDB56600D150F7 /* SpotifyiOS.framework */,
 				1AEB567225DBF424C5AFE8E9 /* Pods_Redde.framework */,
 			);
 			name = Frameworks;
@@ -59,10 +71,9 @@
 			isa = PBXGroup;
 			children = (
 				3DA115F521C580760020F26F /* Redde */,
-				3DA115F421C580760020F26F /* Products */,
-				3DD615D321D0608D00D1A571 /* SpotifyiOS.framework */,
-				6159E0AC5493ED20D2769752 /* Pods */,
 				369662A051C6AA4D385E45C1 /* Frameworks */,
+				3DA115F421C580760020F26F /* Products */,
+				6159E0AC5493ED20D2769752 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,13 +89,19 @@
 			isa = PBXGroup;
 			children = (
 				3DA115F621C580760020F26F /* AppDelegate.swift */,
+				3DB2248021E163D400D150F7 /* SpotifySessionManager.swift */,
 				3DA115F821C580760020F26F /* SignInViewController.swift */,
+				3DB2247821E1473600D150F7 /* MenuViewController.swift */,
+				3DB2247A21E147CD00D150F7 /* SearchViewController.swift */,
+				3DB2247C21E147F500D150F7 /* MetronomeViewController.swift */,
+				3DB2247E21E1480C00D150F7 /* SettingsViewController.swift */,
 				3DD615CD21D0568100D1A571 /* UIImage+Extensions.swift */,
 				3DD615CF21D057CF00D1A571 /* UIColor+Extensions.swift */,
 				3DA1160021C580780020F26F /* Assets.xcassets */,
 				3DA1160221C580780020F26F /* LaunchScreen.storyboard */,
 				3DA1160521C580780020F26F /* Info.plist */,
 				3DA115FD21C580760020F26F /* Redde.xcdatamodeld */,
+				3DB2246D21DDB7E000D150F7 /* Redde-Bridging-Header.h */,
 			);
 			path = Redde;
 			sourceTree = "<group>";
@@ -132,6 +149,7 @@
 				TargetAttributes = {
 					3DA115F221C580760020F26F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -218,10 +236,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DA115F921C580760020F26F /* SignInViewController.swift in Sources */,
+				3DB2248121E163D400D150F7 /* SpotifySessionManager.swift in Sources */,
+				3DB2247B21E147CD00D150F7 /* SearchViewController.swift in Sources */,
 				3DD615D021D057CF00D1A571 /* UIColor+Extensions.swift in Sources */,
 				3DA115FF21C580760020F26F /* Redde.xcdatamodeld in Sources */,
+				3DB2247921E1473600D150F7 /* MenuViewController.swift in Sources */,
+				3DB2247D21E147F500D150F7 /* MetronomeViewController.swift in Sources */,
 				3DA115F721C580760020F26F /* AppDelegate.swift in Sources */,
 				3DD615CE21D0568100D1A571 /* UIImage+Extensions.swift in Sources */,
+				3DB2247F21E1480C00D150F7 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,8 +317,10 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "Redde-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -348,8 +373,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "Redde-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -360,8 +387,13 @@
 			baseConfigurationReference = 91AB5C0EEEE19D84B32C25EA /* Pods-Redde.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J38C5B7EQG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Redde/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -369,6 +401,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DavidZubal.Redde;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Redde/Redde-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -379,8 +413,13 @@
 			baseConfigurationReference = 9D1B1F3803E42C0BE4132FB8 /* Pods-Redde.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J38C5B7EQG;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Redde/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,6 +427,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = DavidZubal.Redde;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Redde/Redde-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

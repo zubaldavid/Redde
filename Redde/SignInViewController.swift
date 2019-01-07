@@ -27,13 +27,33 @@ class SignInViewController: UIViewController {
         super.viewDidLoad()
 
         view.addSubview(spotifyButton)
-
         spotifyButton.constrainCenter(to: view)
         spotifyButton.constrain(to: CGSize(width: 250, height: 75))
     }
 
     @objc private func spotifyButtonTapped() {
-        print("hello world")
+        SpotifySessionManager.shared.authenticateWithSpotify()
+    }
+
+    func displayErrorMessage(error: Error) {
+        // When changing the UI, all actions must be done on the main thread,
+        // since this can be called from a notification which doesn't run on
+        // the main thread, we must add this code to the main thread's queue
+
+        DispatchQueue.main.async {
+            let alertController = UIAlertController(title: "Error",
+                                                    message: error.localizedDescription,
+                                                    preferredStyle: .alert)
+
+            let okAction = UIAlertAction(title: "Ok", style: .default, handler: nil)
+            alertController.addAction(okAction)
+
+            self.present(alertController, animated: true, completion: nil)
+        }
+    }
+
+    func successfulLogin() {
+
     }
 }
 
